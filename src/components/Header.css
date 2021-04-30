@@ -1,0 +1,14 @@
+.falcone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 0;
+  }

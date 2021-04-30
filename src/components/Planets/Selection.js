@@ -8,7 +8,7 @@ const Selection = ({planet, vechile}) => {
         <>
             <div className="selection">
                 <FormControl >
-                    <h1 style={{fontFamily: "monospace"}}>Destination 1</h1>
+                    <h2 style={{fontFamily: "monospace"}}>Destination 1</h2>
                     <Select>
                         {
                             planet.map(c => <MenuItem value={c.name}>{c.name}</MenuItem>)
@@ -20,7 +20,7 @@ const Selection = ({planet, vechile}) => {
 
             <div className="selection">
                 <FormControl >
-                    <h1 style={{fontFamily: "monospace"}}>Destination 2</h1>
+                    <h2 style={{fontFamily: "monospace"}}>Destination 2</h2>
                     <Select>
                         {
                             planet.map(c => <MenuItem value={c.name}>{c.name}</MenuItem>)
@@ -31,7 +31,7 @@ const Selection = ({planet, vechile}) => {
 
             <div className="selection">
                 <FormControl >
-                    <h1 style={{fontFamily: "monospace"}}>Destination 3</h1>
+                    <h2 style={{fontFamily: "monospace"}}>Destination 3</h2>
                     <Select>
                         {
                             planet.map(c => <MenuItem value={c.name}>{c.name}</MenuItem>)
@@ -42,7 +42,7 @@ const Selection = ({planet, vechile}) => {
 
             <div className="selection">
                 <FormControl >
-                    <h1 style={{fontFamily: "monospace"}}>Destination 4</h1>
+                    <h2 style={{fontFamily: "monospace"}}>Destination 4</h2>
                     <Select>
                         {
                             planet.map(c => <MenuItem value={c.name}>{c.name}</MenuItem>)
