@@ -12,6 +12,9 @@ function App() {
       <Header count={count}/>
       <Planet/>
       <Vechiles/>
+      <div className="button">
+        <button>Find Falcone</button>
+      </div>
       <Footer/>
     </div>
   );
