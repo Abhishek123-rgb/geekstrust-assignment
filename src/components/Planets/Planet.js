@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react'
+
 import Selection from './Selection';
 import "./Selection.css";
 const Planet = () => {
@@ -7,7 +8,6 @@ const Planet = () => {
     const fetchplanet = async () => {
         const response = await fetch(`https://findfalcone.herokuapp.com/planets`);
         const data = await response.json();
-        console.log(data);
         setPlanet(data);
     }
 
